@@ -1,0 +1,21 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
